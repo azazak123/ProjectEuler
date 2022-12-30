@@ -7,8 +7,7 @@ main =
   print
     . maximum
     . filter checkPalindrome
-    . concatMap ((<$> [100 .. 999]) . (*))
-    $ [100 .. 999]
+    $ [i * j | i <- [100 .. 999], j <- [100 .. 999]]
 
 checkPalindrome :: Show a => a -> Bool
 checkPalindrome number = show number == reverse (show number)
