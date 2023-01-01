@@ -45,7 +45,7 @@ maintainer:         azazaka2002@gmail.com
 -- category:
 
 -- Extra files to be distributed with the package, such as examples or a README.
-extra-source-files: CHANGELOG.md
+
 
 executable problem2
     -- .hs or .lhs file containing the Main module.
@@ -57,8 +57,8 @@ executable problem2
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
 
-    -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.17.0.0
+    -- Other library packages from which modules are imported. 
+    build-depends:    base ^>=4.16.4.0
 
     ghc-options:      -Wall
 

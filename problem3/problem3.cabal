@@ -13,13 +13,13 @@ version:            0.1.0.0
 
 -- The license under which the package is released.
 -- license:
-author:             azazak123
+author:             Antonov Volodymyr
 maintainer:         azazaka2002@gmail.com
 
 -- A copyright notice.
 -- copyright:
 -- category:
-extra-source-files: CHANGELOG.md
+
 
 executable problem3
     main-is:          Main.hs
@@ -29,7 +29,7 @@ executable problem3
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    base ^>=4.17.0.0
+    build-depends:    base ^>=4.16.4.0
     ghc-options:      -Wall
     hs-source-dirs:   app
     default-language: Haskell2010
