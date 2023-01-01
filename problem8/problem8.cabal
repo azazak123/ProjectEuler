@@ -21,7 +21,7 @@ maintainer:         azazaka2002@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable problem3
+executable problem8
     main-is:          Main.hs
 
     -- Modules included in this executable, other than Main.
